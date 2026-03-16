@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import { LOCATIONS, SERVICES, COMPANY } from "@/constants/constants";
 import FAQSection from "@/components/sections/FAQSection";
 import CTASection from "@/components/sections/CTASection";
-import { getCityConfigSync } from "@/data/city-data";
+import { getCityConfigSync, CityConfig } from "@/data/city-data";
 import Navbar from "@/components/layout/Navbar";
 import Map from "@/components/Map";
 import Footer from "@/components/layout/Footer";
@@ -59,77 +59,17 @@ const LocationDetail = () => {
     );
   }
 
-  // Check if this is Tirupati for enhanced SEO
-  const isTirupati = location.slug.toLowerCase().includes('tirupati');
-
-  // Enhanced local business schema for Tirupati
-  const localBusinessSchema = isTirupati ? {
-    "@context": "https://schema.org",
-    "@type": "MovingCompany",
-    "name": `${COMPANY.name} - ${location.city}`,
-    "description": location.metaDescription || "Best packers and movers in Tirupati. Professional house shifting, office relocation, car transport services.",
-    "url": `/${location.slug}.html`,
-    "telephone": COMPANY.phone,
-    "email": COMPANY.email,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": location.city,
-      "addressRegion": "Andhra Pradesh",
-      "addressCountry": "IN",
-    },
-    "priceRange": "₹₹₹",
-    "openingHours": "Mo-Su 00:00-24:00",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "500"
-    },
-    "areaServed": (location.areas || []).slice(0, 10).map((area) => ({
-      "@type": "Place",
-      "name": area,
-      "containedInPlace": {
-        "@type": "City",
-        "name": location.city
-      }
-    })),
-    "serviceType": [
-      "House Shifting",
-      "Office Relocation", 
-      "Car Transportation",
-      "Bike Transport",
-      "Local Moving",
-      "Inter-state Moving"
-    ],
-    "sameAs": [
-      "https://www.facebook.com/sritejaswinipackers",
-      "https://www.instagram.com/sritejaswinipackers"
-    ]
-  } : {
-    "@context": "https://schema.org",
-    "@type": "MovingCompany",
-    "name": `${COMPANY.name} - ${location.city}`,
-    "description": location.metaDescription,
-    "url": `/${location.slug}.html`,
-    "telephone": COMPANY.phone,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": location.city,
-      "addressRegion": location.state || "India",
-      "addressCountry": "IN",
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "500"
-    }
-  };
+  // Use structured data from city config if available
+  const cityConfig = dynamic as CityConfig | null;
+  const structuredData = cityConfig?.structuredData ? [cityConfig.structuredData] : undefined;
 
   return (
     <HelmetProvider>
       <SEOHead
         title={location.metaTitle || `${location.city} - Packers and Movers | ${COMPANY.name}`}
         description={location.metaDescription || `Best packers and movers in ${location.city}. Professional house shifting and relocation services. Get free quote!`}
-        keywords={`packers movers ${location.city}, ${location.city} relocation, house shifting ${location.city}, best packers and movers in ${location.city}, cheap packers and movers ${location.city}`}
+        keywords={cityConfig?.keywords || `packers movers ${location.city}, ${location.city} relocation, house shifting ${location.city}, best packers and movers in ${location.city}, cheap packers and movers ${location.city}`}
+        jsonLd={structuredData}
         localBusiness={{
           name: `${COMPANY.name} - ${location.city}`,
           description: location.metaDescription || `Professional packers and movers in ${location.city}`,
@@ -151,7 +91,6 @@ const LocationDetail = () => {
             name: area
           }))
         }}
-        jsonLd={localBusinessSchema}
       />
       <Navbar />
       <main>
@@ -178,7 +117,7 @@ const LocationDetail = () => {
                 <MapPin className={`w-8 h-8 ${colors.text}`} />
               </div>
               <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
-                {isTirupati ? "Best Packers and Movers in Tirupati" : location.city}
+                Best Packers and Movers in {location.city}
               </h1>
               <p className="text-white/70 text-lg leading-relaxed mb-8">
                 {location.heroDescription || `Professional packers and movers in ${location.city}. Get reliable house shifting, office relocation, and vehicle transport services.`}
@@ -290,7 +229,7 @@ const LocationDetail = () => {
           <div className="container-custom">
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white">
               {[
-                { value: isTirupati ? "5000+" : "5000+", label: `Moves in ${location.city}` },
+                { value: "5000+", label: `Moves in ${location.city}` },
                 { value: "4.9★", label: "Local Rating" },
                 { value: "Same Day", label: "Service Available" },
                 { value: "Free", label: "Survey & Quote" },

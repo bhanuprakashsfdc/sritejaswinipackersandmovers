@@ -1,0 +1,30 @@
+{
+  "id": "bangalore",
+  "city": "Bangalore",
+  "state": "Karnataka",
+  "slug": "packers-and-movers-in-bangalore",
+  "metaTitle": "Best Packers and Movers in Bangalore | Trusted House Shifting Services",
+  "metaDescription": "Sri tejaswini packers and movers Bangalore - #1 rated relocation services in Bangalore. Professional house shifting, office moving, car transport. Free survey, best rates. Call now!",
+  "keywords": "packers and movers in Bangalore, house shifting Bangalore, office relocation Bangalore, car transport Bangalore, best movers Bangalore, Whitefield movers, Electronic City movers, Koramangala movers",
+  "heroTitle": "Best Packers and Movers in Bangalore",
+  "heroDescription": "Trusted packers and movers in Bangalore for house shifting, office relocation, and vehicle transport. Get instant quotes, free survey, and guaranteed safe delivery.",
+  "heroDescriptionLong": "Sri tejaswini packers and movers is the most trusted name for relocation services in Bangalore, the Silicon Valley of India. We understand Bangalore's unique moving challenges from Electronic City to Whitefield.",
+  "areas": ["Whitefield", "Electronic City", "Koramangala", "HSR Layout", "Indiranagar", "Marathahalli", "Jayanagar", "Bellandur", "Sarjapur", "BTM Layout", "M.G. Road", "Brigade Road", "JP Nagar", "Banashankari"],
+  "features": ["Tech park & startup office moves", "Express weekend shifting", "Premium apartment specialists", "Kannada & English support"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Arun Kumar", "rating": 5, "text": "Excellent service! Moved from Whitefield to Electronic City. Very professional team."}],
+  "faq": [{"question": "Best packers in Bangalore?", "answer": "Sri tejaswini packers with 15+ years experience, ISO certified and IBA approved."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO 9001:2015 certified", "Free survey", "24/7 support"],
+  "pricing": {"localShifting": "Starting from ₹3,000", "1BHK": "₹3,000 - ₹5,000", "2BHK": "₹5,000 - ₹8,000", "3BHK": "₹8,000 - ₹15,000"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Bangalore",
+    "description": "Best packers and movers in Bangalore, Karnataka.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-bangalore.html",
+    "telephone": "+91-9849123456",
+    "address": {"@type": "PostalAddress", "addressLocality": "Bangalore", "addressRegion": "Karnataka", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}

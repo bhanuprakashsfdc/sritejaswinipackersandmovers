@@ -1,0 +1,30 @@
+{
+  "id": "ahmedabad",
+  "city": "Ahmedabad",
+  "state": "Gujarat",
+  "slug": "packers-and-movers-in-ahmedabad",
+  "metaTitle": "Best Packers and Movers in Ahmedabad | Trusted House Shifting Services",
+  "metaDescription": "Sri tejaswini packers and movers Ahmedabad - #1 rated relocation services in Gujarat. Professional house shifting, office moving. Free survey. Call now!",
+  "keywords": "packers and movers in Ahmedabad, house shifting Ahmedabad, office relocation Ahmedabad, SG Highway movers, Prahlad Nagar movers",
+  "heroTitle": "Best Packers and Movers in Ahmedabad",
+  "heroDescription": "Trusted packers and movers in Ahmedabad for house shifting, office relocation, and vehicle transport.",
+  "heroDescriptionLong": "Sri tejaswini packers and movers is the most trusted name for relocation services in Ahmedabad, the commercial capital of Gujarat. We understand the textile city business moves.",
+  "areas": ["SG Highway", "Prahlad Nagar", "Satellite", "Bodakdev", "Vastrapur", "Thaltej", "Panjrapol", "Maninagar", "Naroda", "Bopal", "Shela", "Gota"],
+  "features": ["Textile business expertise", "GIDC area specialists", "Gujarat corridor experts", "Gujarati & Hindi support"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Prashant Patel", "rating": 5, "text": "Excellent service in Ahmedabad! Very professional team."}],
+  "faq": [{"question": "Best packers in Ahmedabad?", "answer": "Sri tejaswini packers with 15+ years experience."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO certified", "Free survey"],
+  "pricing": {"localShifting": "Starting from ₹3,500"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Ahmedabad",
+    "description": "Best packers and movers in Ahmedabad, Gujarat.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-ahmedabad.html",
+    "telephone": "+91-9849123456",
+    "address": {"@type": "PostalAddress", "addressLocality": "Ahmedabad", "addressRegion": "Gujarat", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}

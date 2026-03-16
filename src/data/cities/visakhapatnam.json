@@ -1,0 +1,30 @@
+{
+  "id": "visakhapatnam",
+  "city": "Visakhapatnam",
+  "state": "Andhra Pradesh",
+  "slug": "packers-and-movers-in-visakhapatnam",
+  "metaTitle": "Best Packers and Movers in Visakhapatnam | Trusted House Shifting Services",
+  "metaDescription": "Sri tejaswini packers and movers Visakhapatnam (Vizag) - #1 rated relocation services. Professional house shifting, office moving, car transport. Free survey. Call now!",
+  "keywords": "packers and movers in Visakhapatnam, Vizag movers, house shifting Visakhapatnam, office relocation Vizag, car transport Visakhapatnam, MVP Colony movers, Dwaraka Nagar movers",
+  "heroTitle": "Best Packers and Movers in Visakhapatnam",
+  "heroDescription": "Trusted packers and movers in Visakhapatnam (Vizag) for house shifting, office relocation, and vehicle transport.",
+  "heroDescriptionLong": "Sri tejaswini packers and movers is the most trusted name for relocation services in Visakhapatnam, the Jewel of the East Coast. We provide port city expertise with humidity-resistant packing and coastal route knowledge.",
+  "areas": ["MVP Colony", "Dwaraka Nagar", "Gajuwaka", "Madhurawada", "Seethammadhara", "Beach Road", "Rushikonda", "NAD Junction", "Kancharapalem", "Siripuram", "Ram Nagar", "Lawson Bay"],
+  "features": ["Port & naval area moves", "Coastal humidity protection", "Industrial corridor expertise", "Telugu & Hindi support"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Anil Kumar", "rating": 5, "text": "Great service in Vizag! Very professional team."}],
+  "faq": [{"question": "Best packers in Visakhapatnam?", "answer": "Sri tejaswini packers with 15+ years experience."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO certified", "Free survey"],
+  "pricing": {"localShifting": "Starting from ₹3,000"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Visakhapatnam",
+    "description": "Best packers and movers in Visakhapatnam, Andhra Pradesh.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-visakhapatnam.html",
+    "telephone": "+91-9849123456",
+    "address": {"@type": "PostalAddress", "addressLocality": "Visakhapatnam", "addressRegion": "Andhra Pradesh", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}
