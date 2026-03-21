@@ -77,9 +77,9 @@ const Navbar = () => {
               {NAV_LINKS.map((link) => (
                 <Link
                   key={link.href}
-                  to={`${link.href}.html`}
+                  to={link.href}
                   className={`block px-4 py-3 rounded-xl text-sm font-medium transition-colors ${
-                    location.pathname === `${link.href}.html`
+                    location.pathname === link.href
                       ? "text-emerald-400 bg-emerald-400/10"
                       : "text-white/80 hover:bg-white/10"
                   }`}

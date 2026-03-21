@@ -29,7 +29,7 @@ const Sitemap = () => {
                 <ul className="space-y-2">
                   {NAV_LINKS.map((l) => (
                     <li key={l.href}>
-                      <Link to={`${l.href}.html`} className="text-accent hover:underline">
+                      <Link to={l.href} className="text-accent hover:underline">
                         {l.label}
                       </Link>
                     </li>
