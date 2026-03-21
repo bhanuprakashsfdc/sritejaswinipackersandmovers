@@ -43,7 +43,7 @@ const Gallery = () => {
                 Our Work & Infrastructure
               </h1>
               <p className="text-white/70 text-lg">
-                A look at the systems, fleet, and standards behind every Sri tejaswini packers and movers move.
+                A look at the systems, fleet, and standards behind every Sri Tejaswini packers and movers move.
               </p>
             </motion.div>
           </div>

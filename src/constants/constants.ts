@@ -29,7 +29,7 @@ import {
 // COMPANY INFORMATION
 // =====================================================
 export const COMPANY = {
-  name: "Sri tejaswini packers and movers",
+  name: "Sri Tejaswini packers and movers",
   tagline: "India's Most Trusted Relocation Partner",
   description: "Premium packing and moving services across India with 15+ years of excellence. We handle your belongings with the care they deserve.",
   foundedYear: 2009,
@@ -37,11 +37,11 @@ export const COMPANY = {
   movesCompleted: "50,000+",
   happyCustomers: "45,000+",
   cities: "500+",
-  phone: "+91-9494245846",
+  phone: "+91-9381234146",
   alternatePhone: "+91-8247634546",
-  whatsapp: "+91-9494245846",
+  whatsapp: "+91-9381234146",
   email: "info@sritejaswinipackersandmovers.com",
-  address: "Sri tejaswini packers and movers,Beside Canara Bank, Vaaikuntapuram Road, M.R.Palli, Tirupati",
+  address: "Sri Tejaswini packers and movers,Beside Canara Bank, Vaaikuntapuram Road, M.R.Palli, Tirupati",
   workingHours: "Mon - Sat: 8:00 AM - 8:00 PM",
   socialLinks: {
     facebook: "https://facebook.com/sritejaswinipackersandmovers",
@@ -56,10 +56,10 @@ export const COMPANY = {
 // SEO DATA
 // =====================================================
 export const SEO_DATA = {
-  title: "Sri tejaswini packers and movers | India's Most Trusted Relocation Partner",
-  description: "Sri tejaswini packers and movers offers reliable and affordable household, office, and vehicle shifting services across India. Get a free quote today!",
+  title: "Sri Tejaswini packers and movers | India's Most Trusted Relocation Partner",
+  description: "Sri Tejaswini packers and movers offers reliable and affordable household, office, and vehicle shifting services across India. Get a free quote today!",
   keywords: "packers and movers, relocation services, household shifting, office shifting, car transport, bike transport, warehouse storage, industrial relocation, local shifting, domestic shifting, best packers and movers, trusted movers, affordable movers, India",
-  author: "Sri tejaswini packers and movers",
+  author: "Sri Tejaswini packers and movers",
   ogType: "website",
   ogUrl: "https://www.sritejaswinipackersandmovers.com",
   ogImage: "https://www.sritejaswinipackersandmovers.com/images/og-image.jpg",
@@ -67,8 +67,8 @@ export const SEO_DATA = {
   twitterCreator: "@jballindiapackers",
   twitterImage: "https://www.sritejaswinipackersandmovers.com/images/twitter-image.jpg",
   locations: {
-    title: "Our Service Locations | Sri tejaswini packers and movers",
-    description: "Find Sri tejaswini packers and movers services in your city. We offer reliable relocation solutions across major cities in India.",
+    title: "Our Service Locations | Sri Tejaswini packers and movers",
+    description: "Find Sri Tejaswini packers and movers services in your city. We offer reliable relocation solutions across major cities in India.",
     keywords: "packers and movers locations, service areas, cities covered, India relocation"
   },
   home: {
@@ -77,23 +77,23 @@ export const SEO_DATA = {
     keywords: "best packers and movers, top packers and movers, packers and movers India, relocation services, household shifting, office shifting, car transport, bike transport, warehouse storage, industrial relocation, local shifting, domestic shifting, trusted movers, affordable movers, India"
   },
   about: {
-    title: "About Us | Sri tejaswini packers and movers",
-    description: "Learn more about Sri tejaswini packers and movers, India's leading relocation service provider with 15+ years of experience in household, office, and vehicle shifting.",
-    keywords: "about Sri tejaswini packers and movers, company profile, our story, moving company history, trusted movers India"
+    title: "About Us | Sri Tejaswini packers and movers",
+    description: "Learn more about Sri Tejaswini packers and movers, India's leading relocation service provider with 15+ years of experience in household, office, and vehicle shifting.",
+    keywords: "about Sri Tejaswini packers and movers, company profile, our story, moving company history, trusted movers India"
   },
   blog: {
-    title: "Blog | Sri tejaswini packers and movers",
-    description: "Read the latest articles, tips, and guides on packing, moving, and relocation from Sri tejaswini packers and movers. Your go-to resource for a stress-free move.",
+    title: "Blog | Sri Tejaswini packers and movers",
+    description: "Read the latest articles, tips, and guides on packing, moving, and relocation from Sri Tejaswini packers and movers. Your go-to resource for a stress-free move.",
     keywords: "packers and movers blog, moving tips, packing guide, relocation advice, shifting articles, home shifting blog"
   },
   contact: {
-    title: "Contact Us | Sri tejaswini packers and movers",
-    description: "Get in touch with Sri tejaswini packers and movers for reliable and affordable relocation services. Request a free quote or call us for immediate assistance.",
-    keywords: "contact Sri tejaswini packers and movers, packers and movers phone number, email, address, get a quote, customer support"
+    title: "Contact Us | Sri Tejaswini packers and movers",
+    description: "Get in touch with Sri Tejaswini packers and movers for reliable and affordable relocation services. Request a free quote or call us for immediate assistance.",
+    keywords: "contact Sri Tejaswini packers and movers, packers and movers phone number, email, address, get a quote, customer support"
   },
   services: {
-    title: "Our Services | Sri tejaswini packers and movers",
-    description: "Explore the comprehensive range of relocation services offered by Sri tejaswini packers and movers, including household, office, car, and bike shifting, packing, and storage solutions.",
+    title: "Our Services | Sri Tejaswini packers and movers",
+    description: "Explore the comprehensive range of relocation services offered by Sri Tejaswini packers and movers, including household, office, car, and bike shifting, packing, and storage solutions.",
     keywords: "packers and movers services, household shifting, office relocation, car transport, bike transport, packing services, warehouse storage, industrial shifting"
   }
 };
@@ -115,10 +115,10 @@ export const NAV_LINKS = [
 // =====================================================
 export const HERO_CONTENT = {
   badge: "India's Trusted Packers & Movers",
-  title: "Sri tejaswini packers and movers – Safe, Fast & Reliable Relocation Services",
+  title: "Sri Tejaswini packers and movers – Safe, Fast & Reliable Relocation Services",
   subtitle: "Professional Packing, Moving & Logistics Solutions Across India with 100% Safety Assurance.",
   tagline: "Making Your Move Stress-Free, Affordable & On-Time.",
-  description: "Whether you are shifting your home, office, vehicle, or industrial goods, Sri tejaswini packers and movers provides secure packing, careful handling, and timely delivery with trained professionals and modern equipment.",
+  description: "Whether you are shifting your home, office, vehicle, or industrial goods, Sri Tejaswini packers and movers provides secure packing, careful handling, and timely delivery with trained professionals and modern equipment.",
   primaryCTA: "Get Free Quote",
   callCTA: "Call Now",
   whatsappCTA: "WhatsApp",
@@ -395,7 +395,7 @@ export const LOCATIONS = [
     city: "Hyderabad",
     state: "Telangana",
     slug: "packers-and-movers-in-hyderabad",
-    metaTitle: "Best Packers and Movers in Hyderabad | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Hyderabad | Sri Tejaswini packers and movers",
     metaDescription: "Top-rated packers and movers in Hyderabad. Professional household & office shifting services with free quotes. Call now for reliable relocation services.",
     heroTitle: "Premium Packers & Movers in Hyderabad",
     heroDescription: "Experience seamless relocations in the City of Pearls. Our Hyderabad team specializes in IT corridor moves, gated community relocations, and interstate shifting with local expertise.",
@@ -412,7 +412,7 @@ export const LOCATIONS = [
     city: "Bangalore",
     state: "Karnataka",
     slug: "packers-and-movers-in-bangalore",
-    metaTitle: "Best Packers and Movers in Bangalore | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Bangalore | Sri Tejaswini packers and movers",
     metaDescription: "Trusted packers and movers in Bangalore. Affordable home & office relocation services. Get free estimate today for safe moving experience.",
     heroTitle: "Trusted Packers & Movers in Bangalore",
     heroDescription: "Navigate the Silicon Valley of India with our expert moving services. From Electronic City to Whitefield, we understand Bangalore's unique moving challenges.",
@@ -429,7 +429,7 @@ export const LOCATIONS = [
     city: "Chennai",
     state: "Tamil Nadu",
     slug: "packers-and-movers-in-chennai",
-    metaTitle: "Best Packers and Movers in Chennai | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Chennai | Sri Tejaswini packers and movers",
     metaDescription: "Professional packers and movers in Chennai. Safe household & corporate relocation services at best prices. Book your move today!",
     heroTitle: "Professional Packers & Movers in Chennai",
     heroDescription: "Reliable relocations in the Gateway to South India. Our Chennai team excels in handling monsoon-season moves and coastal humidity challenges.",
@@ -446,7 +446,7 @@ export const LOCATIONS = [
     city: "Mumbai",
     state: "Maharashtra",
     slug: "packers-and-movers-in-mumbai",
-    metaTitle: "Best Packers and Movers in Mumbai | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Mumbai | Sri Tejaswini packers and movers",
     metaDescription: "Reliable packers and movers in Mumbai. Affordable shifting services for home & office. Free survey and quote. Call us now!",
     heroTitle: "Reliable Packers & Movers in Mumbai",
     heroDescription: "Moving in the city that never sleeps requires expertise. Our Mumbai team specializes in high-rise relocations, space-constrained moves, and time-sensitive corporate shifts.",
@@ -463,7 +463,7 @@ export const LOCATIONS = [
     city: "Delhi",
     state: "Delhi NCR",
     slug: "packers-and-movers-in-delhi",
-    metaTitle: "Best Packers and Movers in Delhi NCR | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Delhi NCR | Sri Tejaswini packers and movers",
     metaDescription: "Top packers and movers in Delhi NCR. Complete relocation solutions for Noida, Gurgaon, Ghaziabad. Get instant quote now!",
     heroTitle: "Expert Packers & Movers in Delhi NCR",
     heroDescription: "Navigate the capital region with confidence. Our NCR network covers Delhi, Noida, Gurgaon, Ghaziabad, and Faridabad with seamless coordination.",
@@ -480,7 +480,7 @@ export const LOCATIONS = [
     city: "Pune",
     state: "Maharashtra",
     slug: "packers-and-movers-in-pune",
-    metaTitle: "Best Packers and Movers in Pune | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Pune | Sri Tejaswini packers and movers",
     metaDescription: "Affordable packers and movers in Pune. Professional home & office shifting services. Free estimate and on-time delivery guaranteed.",
     heroTitle: "Affordable Packers & Movers in Pune",
     heroDescription: "From Hinjewadi's IT hubs to Koregaon Park's premium residences, our Pune team delivers quality moves at competitive prices.",
@@ -497,7 +497,7 @@ export const LOCATIONS = [
     city: "Kolkata",
     state: "West Bengal",
     slug: "packers-and-movers-in-kolkata",
-    metaTitle: "Best Packers and Movers in Kolkata | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Kolkata | Sri Tejaswini packers and movers",
     metaDescription: "Trusted packers and movers in Kolkata. Safe and affordable household & commercial shifting services across West Bengal.",
     heroTitle: "Trusted Packers & Movers in Kolkata",
     heroDescription: "Experience the warmth of Bengali hospitality in our moving services. We navigate Kolkata's heritage buildings and modern townships with equal expertise.",
@@ -514,7 +514,7 @@ export const LOCATIONS = [
     city: "Ahmedabad",
     state: "Gujarat",
     slug: "packers-and-movers-in-ahmedabad",
-    metaTitle: "Best Packers and Movers in Ahmedabad | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Ahmedabad | Sri Tejaswini packers and movers",
     metaDescription: "Professional packers and movers in Ahmedabad. Quality packing and safe transportation for household & commercial goods.",
     heroTitle: "Quality Packers & Movers in Ahmedabad",
     heroDescription: "From the old city's pol houses to SG Highway's modern apartments, we understand Ahmedabad's diverse moving requirements.",
@@ -531,7 +531,7 @@ export const LOCATIONS = [
     city: "Tirupati",
     state: "Andhra Pradesh",
     slug: "packers-and-movers-in-tirupati",
-    metaTitle: "Best Packers and Movers in Tirupati | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Tirupati | Sri Tejaswini packers and movers",
     metaDescription: "Reliable packers and movers in Tirupati. Affordable household & office shifting with temple town expertise. Get free quote!",
     heroTitle: "Reliable Packers & Movers in Tirupati",
     heroDescription: "The sacred city of Lord Venkateshwara deserves respectful moving services. We handle religious artifacts, brass items, and household goods with devotion and care.",
@@ -548,7 +548,7 @@ export const LOCATIONS = [
     city: "Visakhapatnam",
     state: "Andhra Pradesh",
     slug: "packers-and-movers-in-visakhapatnam",
-    metaTitle: "Best Packers and Movers in Visakhapatnam | Sri tejaswini packers and movers",
+    metaTitle: "Best Packers and Movers in Visakhapatnam | Sri Tejaswini packers and movers",
     metaDescription: "Professional packers and movers in Vizag. Complete relocation services for household, office, and industrial moves.",
     heroTitle: "Professional Packers & Movers in Visakhapatnam",
     heroDescription: "The Jewel of the East Coast trusts us for reliable relocations. Port city expertise with humidity-resistant packing and coastal route knowledge.",
@@ -609,7 +609,7 @@ export const PROCESS_STEPS = [
 export const TESTIMONIALS = [
   {
     id: 1,
-    text: "Sri tejaswini packers and movers made my household shifting from Hyderabad to Bangalore incredibly smooth. The team was professional, efficient, and handled all my belongings with utmost care. Highly recommended!",
+    text: "Sri Tejaswini packers and movers made my household shifting from Hyderabad to Bangalore incredibly smooth. The team was professional, efficient, and handled all my belongings with utmost care. Highly recommended!",
     author: "Priya Sharma",
     location: "Hyderabad to Bangalore",
     service: "Household Shifting",
@@ -617,7 +617,7 @@ export const TESTIMONIALS = [
   },
   {
     id: 2,
-    text: "I had to relocate my office in Chennai, and Sri tejaswini packers and movers delivered exceptional service. Minimal downtime, secure packing of IT equipment, and timely delivery. Fantastic job!",
+    text: "I had to relocate my office in Chennai, and Sri Tejaswini packers and movers delivered exceptional service. Minimal downtime, secure packing of IT equipment, and timely delivery. Fantastic job!",
     author: "Rajesh Kumar",
     location: "Chennai",
     service: "Office Relocation",
@@ -625,7 +625,7 @@ export const TESTIMONIALS = [
   },
   {
     id: 3,
-    text: "Transporting my car from Delhi to Mumbai was a concern, but Sri tejaswini packers and movers handled it flawlessly. The enclosed carrier and GPS tracking gave me complete peace of mind. My car arrived without a scratch.",
+    text: "Transporting my car from Delhi to Mumbai was a concern, but Sri Tejaswini packers and movers handled it flawlessly. The enclosed carrier and GPS tracking gave me complete peace of mind. My car arrived without a scratch.",
     author: "Amit Singh",
     location: "Delhi to Mumbai",
     service: "Car Transportation",
@@ -641,7 +641,7 @@ export const TESTIMONIALS = [
   },
   {
     id: 5,
-    text: "I used Sri tejaswini packers and movers for bike transport, and they did an excellent job. The custom crating ensured my bike was safe and secure throughout the journey. Very satisfied with their service.",
+    text: "I used Sri Tejaswini packers and movers for bike transport, and they did an excellent job. The custom crating ensured my bike was safe and secure throughout the journey. Very satisfied with their service.",
     author: "Vikram Goud",
     location: "Bangalore to Hyderabad",
     service: "Bike Transport",

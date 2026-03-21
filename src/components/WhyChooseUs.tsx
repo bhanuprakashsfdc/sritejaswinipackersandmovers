@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
           className="text-center mb-16"
         >
           <span className="inline-block px-5 py-2 rounded-full bg-emerald-500/10 text-emerald-400 text-sm font-semibold mb-4 border border-emerald-500/20">
-            The Sri tejaswini packers and movers Difference
+            The Sri Tejaswini packers and movers Difference
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
             Built on Trust, Powered by Technology

@@ -141,7 +141,7 @@ const Index = () => {
         "name": "What are the best packers and movers in India?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sri tejaswini packers and movers is one of the most trusted names in the Indian relocation industry with 15+ years of experience, ISO certification, and IBA approval."
+          "text": "Sri Tejaswini packers and movers is one of the most trusted names in the Indian relocation industry with 15+ years of experience, ISO certification, and IBA approval."
         }
       },
       {

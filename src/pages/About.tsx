@@ -82,7 +82,7 @@ const About = () => {
           >
             <h2 className="text-3xl font-heading font-bold text-slate-900 mb-6">Our Story</h2>
             <div className="space-y-4 text-slate-600 leading-relaxed">
-              <p>Founded in 2010 in Hyderabad, Sri tejaswini packers and movers began with a simple conviction: relocations shouldn't be stressful. We started with a small fleet and a commitment to treat every customer's belongings as if they were our own.</p>
+              <p>Founded in 2010 in Hyderabad, Sri Tejaswini packers and movers began with a simple conviction: relocations shouldn't be stressful. We started with a small fleet and a commitment to treat every customer's belongings as if they were our own.</p>
               <p>Fifteen years later, that conviction has scaled into a nationwide operation spanning 200+ cities, 600+ vehicles, and 3,000+ trained professionals. We've completed over 75,000 relocations — each one reinforcing our belief that technology, transparency, and care can transform this industry.</p>
               <p>Our ISO 9001:2015 certification and IBA approval aren't just badges — they're reflections of the systems we've built to ensure quality and accountability at every touchpoint.</p>
             </div>

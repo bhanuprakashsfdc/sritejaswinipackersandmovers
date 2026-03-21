@@ -15,7 +15,7 @@ const Footer = () => (
         {/* Brand */}
         <div className="lg:col-span-2">
           <div className="flex items-center gap-2.5 mb-4">
-            <span className="font-heading font-bold text-xl text-white">Sri tejaswini packers and movers</span>
+            <span className="font-heading font-bold text-xl text-white">Sri Tejaswini packers and movers</span>
           </div>
           <p className="text-white/60 text-sm leading-relaxed mb-6 max-w-sm">
             India's technology-driven relocation company. 15+ years of tracked, insured, and transparent moving services across 200+ cities.

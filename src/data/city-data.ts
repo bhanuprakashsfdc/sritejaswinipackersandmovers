@@ -77,7 +77,7 @@ const commonServices = [
 const getFaqTemplate = (city: string, state: string) => [
   {
     question: `How to find the best packers and movers in ${city}?`,
-    answer: `Look for verified companies with good reviews, transparent pricing, and proper licensing. Sri tejaswini packers and movers ${city} offers all this with years of experience and IBA approval.`
+    answer: `Look for verified companies with good reviews, transparent pricing, and proper licensing. Sri Tejaswini packers and movers ${city} offers all this with years of experience and IBA approval.`
   },
   {
     question: `What is the cost of house shifting in ${city}?`,
@@ -195,7 +195,7 @@ function enhancedTemplate(citySlug: string): CityConfig {
     metaDescription: `Trusted packers and movers in ${cityTitle}. Professional household and office shifting, safe transport and timely delivery. Get a free quote today!`,
     heroTitle: `Reliable Packers & Movers in ${cityTitle}`,
     heroDescription: `Premium relocation services in ${cityTitle}. Expert packing, careful handling, and on-time delivery across all localities.`,
-    heroDescriptionLong: `Sri tejaswini packers and movers is the most trusted name for relocation services in ${cityTitle}. With years of experience and a dedicated team, we ensure your belongings reach safely.`,
+    heroDescriptionLong: `Sri Tejaswini packers and movers is the most trusted name for relocation services in ${cityTitle}. With years of experience and a dedicated team, we ensure your belongings reach safely.`,
     areas: [],
     features: [
       "Professional packing & safe handling",
