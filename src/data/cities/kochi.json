@@ -1,0 +1,30 @@
+{
+  "id": "kochi",
+  "city": "Kochi",
+  "state": "Kerala",
+  "slug": "packers-and-movers-in-kochi",
+  "metaTitle": "Best Packers and Movers in Kochi | Trusted House Shifting Services",
+  "metaDescription": "Sri Tejaswini packers and movers Kochi (Cochin) - #1 rated relocation services in Kerala. Professional house shifting, office moving. Free survey. Call now!",
+  "keywords": "packers and movers in Kochi, Cochin movers, house shifting Kochi, office relocation Kochi, Ernakulam movers, Kakkanad movers",
+  "heroTitle": "Best Packers and Movers in Kochi",
+  "heroDescription": "Trusted packers and movers in Kochi (Cochin) for house shifting, office relocation, and vehicle transport.",
+  "heroDescriptionLong": "Sri Tejaswini packers and movers is the most trusted name for relocation services in Kochi, the commercial capital of Kerala. We specialize in coastal city moves with humidity protection.",
+  "areas": ["Ernakulam", "Kakkanad", "MG Road", "Marine Drive", "Fort Kochi", "Vytilla", "Panampilly Nagar", "Edapally", "Aluva", "Cochin Airport", "Kalamassery", "Tripunithura"],
+  "features": ["Coastal humidity protection", "Port & cargo handling", "Backwater region expertise", "Malayalam & English support"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Jose Mathew", "rating": 5, "text": "Excellent service in Kochi! Very professional team."}],
+  "faq": [{"question": "Best packers in Kochi?", "answer": "Sri Tejaswini packers with 15+ years experience."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO certified", "Free survey"],
+  "pricing": {"localShifting": "Starting from ₹3,500"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Kochi",
+    "description": "Best packers and movers in Kochi, Kerala.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-kochi.html",
+    "telephone": "+91-9381234146",
+    "address": {"@type": "PostalAddress", "addressLocality": "Kochi", "addressRegion": "Kerala", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}

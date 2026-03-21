@@ -92,7 +92,7 @@ const SEOHead = ({
       
       {/* Additional SEO */}
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="Sri tejaswini packers and movers" />
+      <meta name="author" content="Sri Tejaswini packers and movers" />
       <meta name="geo.region" content="IN-AP" />
       <meta name="geo.placename" content="Tirupati" />
       

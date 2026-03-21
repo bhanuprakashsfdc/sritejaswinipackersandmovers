@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container-custom">
         <nav className="flex items-center justify-between h-16 md:h-20">
           <Link to="/index.html" className="flex items-center">
-            <img src={jblogo} alt="Sri tejaswini packers and movers" className="jblogo" />
+            <img src={jblogo} alt="Sri Tejaswini packers and movers" className="jblogo" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-1">

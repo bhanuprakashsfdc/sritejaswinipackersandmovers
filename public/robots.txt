@@ -1,8 +1,19 @@
+# robots.txt for Sri Tejaswini Packers and Movers
+# https://www.sritejaswinipackersandmovers.com
+
 User-agent: Googlebot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /api/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /api/
+Disallow: /admin/
 
 User-agent: Twitterbot
 Allow: /
@@ -12,3 +23,11 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://www.sritejaswinipackersandmovers.com/sitemap.xml
+
+# Crawl-delay (optional, for politeness)
+Crawl-delay: 1

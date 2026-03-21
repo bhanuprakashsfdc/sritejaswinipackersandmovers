@@ -1,0 +1,30 @@
+{
+  "id": "jaipur",
+  "city": "Jaipur",
+  "state": "Rajasthan",
+  "slug": "packers-and-movers-in-jaipur",
+  "metaTitle": "Best Packers and Movers in Jaipur | Trusted House Shifting Services",
+  "metaDescription": "Sri Tejaswini packers and movers Jaipur - #1 rated relocation services in Rajasthan. Professional house shifting, office moving. Free survey. Call now!",
+  "keywords": "packers and movers in Jaipur, house shifting Jaipur, office relocation Jaipur, Pink City movers, MI Road movers, Vaishali Nagar movers",
+  "heroTitle": "Best Packers and Movers in Jaipur",
+  "heroDescription": "Trusted packers and movers in Jaipur (Pink City) for house shifting, office relocation, and vehicle transport.",
+  "heroDescriptionLong": "Sri Tejaswini packers and movers is the most trusted name for relocation services in Jaipur, the Pink City. We handle heritage area moves and modern apartment shifts with equal expertise.",
+  "areas": ["MI Road", "Vaishali Nagar", "C Scheme", "Malviya Nagar", "Jhotwara", "Sanganer", "Mansarovar", "Bani Park", "Raja Park", "Tonk Road", "Ajmer Road", "Sirsi"],
+  "features": ["Heritage area expertise", "Desert climate handling", "Royal city specialists", "Rajasthani & Hindi support"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Rahul Sharma", "rating": 5, "text": "Excellent service in Jaipur! Very professional team."}],
+  "faq": [{"question": "Best packers in Jaipur?", "answer": "Sri Tejaswini packers with 15+ years experience."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO certified", "Free survey"],
+  "pricing": {"localShifting": "Starting from ₹3,500"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Jaipur",
+    "description": "Best packers and movers in Jaipur, Rajasthan.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-jaipur.html",
+    "telephone": "+91-9381234146",
+    "address": {"@type": "PostalAddress", "addressLocality": "Jaipur", "addressRegion": "Rajasthan", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}

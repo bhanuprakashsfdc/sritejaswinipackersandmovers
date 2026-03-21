@@ -1,0 +1,30 @@
+{
+  "id": "chennai",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "slug": "packers-and-movers-in-chennai",
+  "metaTitle": "Best Packers and Movers in Chennai | Trusted House Shifting Services",
+  "metaDescription": "Sri Tejaswini packers and movers Chennai - #1 rated relocation services in Chennai. Professional house shifting, office moving, car transport. Free survey, best rates. Call now!",
+  "keywords": "packers and movers in Chennai, house shifting Chennai, office relocation Chennai, car transport Chennai, T. Nagar movers, Anna Nagar movers, OMR movers",
+  "heroTitle": "Best Packers and Movers in Chennai",
+  "heroDescription": "Trusted packers and movers in Chennai for house shifting, office relocation, and vehicle transport.",
+  "heroDescriptionLong": "Sri Tejaswini packers and movers is the most trusted name for relocation services in Chennai, the Gateway to South India. We excel in handling monsoon-season moves and coastal humidity challenges.",
+  "areas": ["T. Nagar", "Anna Nagar", "Velachery", "OMR", "Adyar", "Tambaram", "Porur", "Thoraipakkam", "Guindy", "Nungambakkam", "Mylapore", "Kodambakkam"],
+  "features": ["Monsoon-proof packing solutions", "IT corridor expertise (OMR/Porur)", "Factory & industrial moves", "Tamil-speaking coordination"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Karthik R", "rating": 5, "text": "Excellent service in Chennai! Very professional team."}],
+  "faq": [{"question": "Best packers in Chennai?", "answer": "Sri Tejaswini packers with 15+ years experience."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO certified", "Free survey", "24/7 support"],
+  "pricing": {"localShifting": "Starting from ₹3,000", "1BHK": "₹3,000 - ₹5,000"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Chennai",
+    "description": "Best packers and movers in Chennai, Tamil Nadu.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-chennai.html",
+    "telephone": "+91-9381234146",
+    "address": {"@type": "PostalAddress", "addressLocality": "Chennai", "addressRegion": "Tamil Nadu", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}

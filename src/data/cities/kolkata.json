@@ -1,0 +1,30 @@
+{
+  "id": "kolkata",
+  "city": "Kolkata",
+  "state": "West Bengal",
+  "slug": "packers-and-movers-in-kolkata",
+  "metaTitle": "Best Packers and Movers in Kolkata | Trusted House Shifting Services",
+  "metaDescription": "Sri Tejaswini packers and movers Kolkata - #1 rated relocation services in Kolkata. Professional house shifting, office moving. Free survey. Call now!",
+  "keywords": "packers and movers in Kolkata, house shifting Kolkata, office relocation Kolkata, Salt Lake movers, Howrah movers, Park Street movers",
+  "heroTitle": "Best Packers and Movers in Kolkata",
+  "heroDescription": "Trusted packers and movers in Kolkata for house shifting, office relocation, and vehicle transport.",
+  "heroDescriptionLong": "Sri Tejaswini packers and movers is the most trusted name for relocation services in Kolkata, the City of Joy. We understand the unique colonial architecture and narrow lanes of this historic city.",
+  "areas": ["Salt Lake", "Howrah", "Park Street", "B B D Bag", "Esplanade", "Gariahat", "Jadavpur", "Behala", "Tollygunge", "Alipore", "Dum Dum", "Baguiati"],
+  "features": ["Colonial area expertise", "Narrow lane navigation", "Metro city specialists", "Bengali & Hindi support"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Sanjay Gupta", "rating": 5, "text": "Excellent service in Kolkata! Very professional team."}],
+  "faq": [{"question": "Best packers in Kolkata?", "answer": "Sri Tejaswini packers with 15+ years experience."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO certified", "Free survey"],
+  "pricing": {"localShifting": "Starting from ₹4,000"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Kolkata",
+    "description": "Best packers and movers in Kolkata, West Bengal.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-kolkata.html",
+    "telephone": "+91-9381234146",
+    "address": {"@type": "PostalAddress", "addressLocality": "Kolkata", "addressRegion": "West Bengal", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}

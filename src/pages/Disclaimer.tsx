@@ -15,7 +15,7 @@ const Disclaimer = () => {
     {
       icon: FileText,
       title: "Website Content",
-      content: "The information provided on this website is for general informational purposes only. While we strive to keep the content accurate and up-to-date, Sri tejaswini packers and movers makes no representations or warranties of any kind about the completeness, accuracy, or reliability of the information."
+      content: "The information provided on this website is for general informational purposes only. While we strive to keep the content accurate and up-to-date, Sri Tejaswini packers and movers makes no representations or warranties of any kind about the completeness, accuracy, or reliability of the information."
     },
     {
       icon: DollarSign,
@@ -25,7 +25,7 @@ const Disclaimer = () => {
     {
       icon: Link2,
       title: "Third-Party Links",
-      content: "Our website may contain links to external websites. Sri tejaswini packers and movers is not responsible for the content, privacy practices, or availability of third-party sites."
+      content: "Our website may contain links to external websites. Sri Tejaswini packers and movers is not responsible for the content, privacy practices, or availability of third-party sites."
     },
     {
       icon: AlertTriangle,
@@ -35,7 +35,7 @@ const Disclaimer = () => {
     {
       icon: Shield,
       title: "Limitation of Liability",
-      content: "To the fullest extent permitted by law, Sri tejaswini packers and movers shall not be liable for any indirect, incidental, or consequential damages arising from the use of this website or our services."
+      content: "To the fullest extent permitted by law, Sri Tejaswini packers and movers shall not be liable for any indirect, incidental, or consequential damages arising from the use of this website or our services."
     }
   ];
 

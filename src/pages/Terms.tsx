@@ -15,7 +15,7 @@ const Terms = () => {
     {
       icon: FileText,
       title: "Service Agreement",
-      content: "Upon accepting a quotation and confirming a booking, a service agreement is formed between you and Sri tejaswini packers and movers. The scope of work, pricing, and timelines will be as described in your confirmed quotation."
+      content: "Upon accepting a quotation and confirming a booking, a service agreement is formed between you and Sri Tejaswini packers and movers. The scope of work, pricing, and timelines will be as described in your confirmed quotation."
     },
     {
       icon: CreditCard,

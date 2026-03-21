@@ -12,7 +12,7 @@ const Map: React.FC = () => {
         allowFullScreen={true}
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
-        title="Sri tejaswini packers and movers Location"
+        title="Sri Tejaswini packers and movers Location"
       ></iframe>
     </div>
     </main>

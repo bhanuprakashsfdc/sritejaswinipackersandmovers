@@ -1,0 +1,30 @@
+{
+  "id": "chandigarh",
+  "city": "Chandigarh",
+  "state": "Punjab",
+  "slug": "packers-and-movers-in-chandigarh",
+  "metaTitle": "Best Packers and Movers in Chandigarh | Trusted House Shifting Services",
+  "metaDescription": "Sri Tejaswini packers and movers Chandigarh - #1 rated relocation services in Chandigarh. Professional house shifting, office moving. Free survey. Call now!",
+  "keywords": "packers and movers in Chandigarh, house shifting Chandigarh, office relocation Chandigarh, Sector 17 movers, Panchkula movers, Mohali movers",
+  "heroTitle": "Best Packers and Movers in Chandigarh",
+  "heroDescription": "Trusted packers and movers in Chandigarh (The City Beautiful) for house shifting, office relocation, and vehicle transport.",
+  "heroDescriptionLong": "Sri Tejaswini packers and movers is the most trusted name for relocation services in Chandigarh, The City Beautiful. We specialize in sector-wise moves and tricity relocations.",
+  "areas": ["Sector 17", "Sector 22", "Sector 35", "Sector 43", "Panchkula", "Mohali", "Zirakpur", "Kharar", "Manimajra", "Dhanas", "Burail", "Maloya"],
+  "features": ["Sector-wise expertise", "Tricity coordination", "Planned city specialists", "Punjabi & Hindi support"],
+  "services": ["House Shifting", "Office Relocation", "Car Transportation", "Bike Transport", "Local Moving", "Inter-state Moving", "Storage Solutions"],
+  "testimonials": [{"name": "Gurpreet Singh", "rating": 5, "text": "Excellent service in Chandigarh! Very professional team."}],
+  "faq": [{"question": "Best packers in Chandigarh?", "answer": "Sri Tejaswini packers with 15+ years experience."}],
+  "whyChooseUs": ["15+ years experience", "5000+ successful moves", "ISO certified", "Free survey"],
+  "pricing": {"localShifting": "Starting from ₹4,000"},
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "Sri Tejaswini Packers and Movers - Chandigarh",
+    "description": "Best packers and movers in Chandigarh, Punjab.",
+    "url": "https://www.sritejaswinipackersandmovers.com/packers-and-movers-in-chandigarh.html",
+    "telephone": "+91-9381234146",
+    "address": {"@type": "PostalAddress", "addressLocality": "Chandigarh", "addressRegion": "Punjab", "addressCountry": "IN"},
+    "priceRange": "₹₹₹",
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500"}
+  }
+}

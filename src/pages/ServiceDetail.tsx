@@ -34,7 +34,7 @@ const ServiceDetail = () => {
     return (
       <HelmetProvider>
         <SEO
-          title="Service Not Found - Sri tejaswini packers and movers"
+          title="Service Not Found - Sri Tejaswini packers and movers"
           description="The service you are looking for could not be found."
           keywords="service not found, error, packers and movers"
         />
@@ -60,7 +60,7 @@ const ServiceDetail = () => {
   return (
     <HelmetProvider>
       <SEO
-        title={`${service.title} - Professional ${service.title} Services | Sri tejaswini packers and movers`}
+        title={`${service.title} - Professional ${service.title} Services | Sri Tejaswini packers and movers`}
         description={service.fullDescription}
         keywords={`${service.title.toLowerCase()}, ${service.title.toLowerCase()} services, packers movers ${service.title.toLowerCase()}`}
       />
