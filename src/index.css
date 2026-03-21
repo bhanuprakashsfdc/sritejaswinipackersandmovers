@@ -142,7 +142,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
   .section-padding {
-    @apply py-20 md:py-28 px-4;
+    @apply py-12 md:py-20 lg:py-28 px-4;
   }
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
@@ -160,9 +160,14 @@
     box-shadow: 0 0 40px rgba(6, 182, 212, 0.15);
   }
   .jblogo {
-    height: 5rem;
+    height: 3.5rem;
   }
   @screen md {
+    .jblogo {
+      height: 4rem;
+    }
+  }
+  @screen lg {
     .jblogo {
       height: 5rem;
     }

@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
         keywords="privacy policy, data protection, personal information"
       />
       <Navbar />
-      <main className="pt-28 pb-20 bg-slate-50">
+      <main className="pt-20 pb-12 md:pt-24 md:pb-20 bg-slate-50">
         {/* Hero Section */}
         <section className="pb-12 bg-slate-900 relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(16,185,129,0.1),transparent_50%)]" />

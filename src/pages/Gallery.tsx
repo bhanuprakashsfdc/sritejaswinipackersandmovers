@@ -25,7 +25,7 @@ const Gallery = () => {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="pt-28 pb-16 bg-slate-900 relative overflow-hidden">
+        <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-slate-900 relative overflow-hidden">
           {/* Background decoration */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(16,185,129,0.1),transparent_50%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(6,182,212,0.08),transparent_50%)]" />
@@ -52,8 +52,8 @@ const Gallery = () => {
         {/* Operations Showcase */}
         <section className="section-padding bg-slate-50">
           <div className="container-custom">
-            <h2 className="text-3xl font-heading font-bold text-slate-900 mb-8">Operations Showcase</h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-900 mb-6 md:mb-8">Operations Showcase</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {galleryItems.map((item, i) => (
                 <motion.div 
                   key={item.title} 
@@ -66,7 +66,7 @@ const Gallery = () => {
                   <div className={`h-48 bg-gradient-to-br ${item.color} flex items-center justify-center`}>
                     <span className="text-5xl">{item.icon}</span>
                   </div>
-                  <div className="p-6">
+                  <div className="p-4 md:p-6">
                     <h3 className="font-heading font-bold text-slate-900 mb-2">{item.title}</h3>
                     <p className="text-slate-600 text-sm">{item.desc}</p>
                   </div>

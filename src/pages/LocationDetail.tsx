@@ -46,7 +46,7 @@ const LocationDetail = () => {
     return (
       <Layout>
         <Navbar />
-        <main className="pt-28 pb-16 bg-slate-900">
+        <main className="pt-24 pb-12 md:pt-28 md:pb-16 bg-slate-900">
           <div className="container-custom">
             <h1 className="text-4xl font-bold mb-4 text-white">Location Not Found</h1>
             <Link to="/locations.html" className="text-emerald-400 hover:underline">
@@ -95,7 +95,7 @@ const LocationDetail = () => {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="pt-28 pb-16 bg-slate-900 relative overflow-hidden">
+        <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-slate-900 relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(16,185,129,0.1),transparent_50%)]" />
           
           <div className="container-custom relative z-10">

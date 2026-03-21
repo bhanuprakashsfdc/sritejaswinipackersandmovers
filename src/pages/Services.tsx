@@ -23,7 +23,7 @@ const Locations = () => {
       <Navbar />
         <main>
         {/* Hero Section */}
-        <section className="pt-28 pb-16 bg-secondary/30">
+        <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-secondary/30">
           <div className="container-custom">
             <div className="flex items-center gap-2 text-muted-foreground mb-4">
               <Link to="/index.html" className="hover:text-primary transition-colors">
@@ -116,7 +116,7 @@ const Locations = () => {
         </section>
 
         {/* Other Cities Banner */}
-        <section className="py-16 bg-gradient-surface">
+        <section className="py-10 md:py-16 bg-gradient-surface">
           <div className="container text-center">
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
               Don't See Your City?

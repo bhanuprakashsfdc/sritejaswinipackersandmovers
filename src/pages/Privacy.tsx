@@ -10,7 +10,7 @@ const Privacy = () => (
   <>
     <SEOHead title={`Privacy Policy — ${COMPANY.name}`} description={`Privacy policy for ${COMPANY.name}. Learn how we collect, use, and protect your personal information.`} />
     <Navbar />
-    <main className="pt-28 pb-20">
+    <main className="pt-20 pb-12 md:pt-24 md:pb-20">
       <div className="container-custom max-w-3xl">
         <h1 className="text-4xl font-heading font-bold text-foreground mb-8">Privacy Policy</h1>
         <div className="prose prose-sm max-w-none text-muted-foreground space-y-6">

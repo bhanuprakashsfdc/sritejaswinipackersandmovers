@@ -33,7 +33,7 @@ const Contact = () => {
       <Navbar />
       <main>
         {/* Hero Section */}
-        <section className="pt-28 pb-16 bg-slate-900 relative overflow-hidden">
+        <section className="pt-24 pb-12 md:pt-28 md:pb-16 bg-slate-900 relative overflow-hidden">
           {/* Background decoration */}
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(16,185,129,0.1),transparent_50%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(6,182,212,0.08),transparent_50%)]" />
@@ -47,10 +47,10 @@ const Contact = () => {
               <span className="inline-block px-5 py-2 rounded-full bg-emerald-500/10 text-emerald-400 text-sm font-semibold mb-4 border border-emerald-500/20">
                 Contact Us
               </span>
-              <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
                 Let's Plan Your Perfect Move
               </h1>
-              <p className="text-white/70 text-lg">Get a free quote, schedule a survey, or speak to our experts. We're available 24/7.</p>
+              <p className="text-white/70 text-base md:text-lg">Get a free quote, schedule a survey, or speak to our experts. We're available 24/7.</p>
             </motion.div>
           </div>
         </section>
@@ -58,14 +58,14 @@ const Contact = () => {
         {/* Contact Section */}
         <section className="section-padding bg-slate-50">
           <div className="container-custom">
-            <div className="grid lg:grid-cols-2 gap-12">
+            <div className="grid lg:grid-cols-2 gap-8 md:gap-12">
               <motion.div 
                 initial={{ opacity: 0, x: prefersReducedMotion ? 0 : -20 }} 
                 whileInView={{ opacity: 1, x: 0 }} 
                 viewport={{ once: true }}
               >
                 {submitted ? (
-                  <div className="rounded-2xl bg-white border border-slate-200 p-12 text-center">
+                  <div className="rounded-2xl bg-white border border-slate-200 p-8 md:p-12 text-center">
                     <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-6">
                       <CheckCircle className="w-10 h-10 text-emerald-500" />
                     </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                     <p className="text-slate-600">Our team will reach out within 30 minutes.</p>
                   </div>
                 ) : (
-                  <form onSubmit={handleSubmit} className="rounded-2xl bg-white border border-slate-200 shadow-xl p-8 space-y-4">
+                  <form onSubmit={handleSubmit} className="rounded-2xl bg-white border border-slate-200 shadow-xl p-6 md:p-8 space-y-4">
                     <h2 className="text-xl font-heading font-bold text-slate-900 mb-2">Send Enquiry</h2>
                     <input required type="text" placeholder="Full Name" value={form.name} onChange={(e) => update("name", e.target.value)} className={inputClass} />
                     <input required type="tel" placeholder="Phone Number" value={form.phone} onChange={(e) => update("phone", e.target.value)} className={inputClass} />
@@ -86,7 +86,7 @@ const Contact = () => {
                     <Button 
                       type="submit" 
                       size="lg" 
-                      className="w-full bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-bold py-6 rounded-xl text-base shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transition-all hover:scale-[1.02]"
+                      className="w-full bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-bold py-4 md:py-6 rounded-xl text-base shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 transition-all hover:scale-[1.02]"
                     >
                       Submit Enquiry
                     </Button>
@@ -100,7 +100,7 @@ const Contact = () => {
                 viewport={{ once: true }} 
                 className="space-y-6"
               >
-                <div className="rounded-2xl bg-slate-900 border border-white/10 p-8 space-y-5">
+                <div className="rounded-2xl bg-slate-900 border border-white/10 p-6 md:p-8 space-y-5">
                   <h2 className="text-xl font-heading font-bold text-white">Get in Touch</h2>
                   {[
                     { href: `tel:${COMPANY.phone}`, icon: Phone, label: "Call Us (24/7)", value: COMPANY.phone, color: "bg-emerald-500/10 text-emerald-400" },
@@ -112,35 +112,35 @@ const Contact = () => {
                       href={item.href} 
                       target={item.external ? "_blank" : undefined} 
                       rel={item.external ? "noopener noreferrer" : undefined}
-                      className="flex items-center gap-4 p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors"
+                      className="flex items-center gap-3 md:gap-4 p-3 md:p-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 transition-colors"
                     >
-                      <div className={`w-12 h-12 rounded-xl ${item.color} flex items-center justify-center`}>
-                        <item.icon className="w-5 h-5" />
+                      <div className={`w-10 h-10 md:w-12 md:h-12 rounded-xl ${item.color} flex items-center justify-center shrink-0`}>
+                        <item.icon className="w-4 h-4 md:w-5 md:h-5" />
                       </div>
                       <div>
                         <p className="text-sm text-white/50">{item.label}</p>
-                        <p className="font-heading font-bold text-white text-sm">{item.value}</p>
+                        <p className="font-heading font-bold text-white text-xs md:text-sm break-all">{item.value}</p>
                       </div>
                     </a>
                   ))}
-                  <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
-                    <div className="w-12 h-12 rounded-xl bg-violet-500/10 flex items-center justify-center shrink-0">
-                      <MapPin className="w-5 h-5 text-violet-400" />
+                  <div className="flex items-start gap-3 md:gap-4 p-3 md:p-4 rounded-xl bg-white/5 border border-white/10">
+                    <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-violet-500/10 flex items-center justify-center shrink-0">
+                      <MapPin className="w-4 h-4 md:w-5 md:h-5 text-violet-400" />
                     </div>
                     <div>
                       <p className="text-sm text-white/50">Head Office</p>
-                      <p className="font-heading font-bold text-white text-sm">{COMPANY.address}</p>
+                      <p className="font-heading font-bold text-white text-xs md:text-sm">{COMPANY.address}</p>
                     </div>
                   </div>
                 </div>
 
                 {/* Trust badges */}
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-2 gap-3 md:gap-4">
                   {[
                     { icon: Clock, label: "24/7", desc: "Support Available" },
                     { icon: Shield, label: "100%", desc: "Insured Moves" }
                   ].map((item) => (
-                    <div key={item.label} className="p-4 rounded-2xl bg-white border border-slate-200 text-center">
+                    <div key={item.label} className="p-3 md:p-4 rounded-2xl bg-white border border-slate-200 text-center">
                       <item.icon className="w-6 h-6 text-emerald-500 mx-auto mb-2" />
                       <p className="font-bold text-slate-900">{item.label}</p>
                       <p className="text-xs text-slate-500">{item.desc}</p>
