@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <>
-      <SEOHead title={SEO_DATA.contact.title} description={SEO_DATA.contact.description} keywords={SEO_DATA.contact.keywords} />
+      <SEOHead title={SEO_DATA.contact.title} description={SEO_DATA.contact.description} keywords={SEO_DATA.contact.keywords} canonical="https://www.sritejaswinipackersandmovers.com/contact.html" />
       <Navbar />
       <main>
         {/* Hero Section */}

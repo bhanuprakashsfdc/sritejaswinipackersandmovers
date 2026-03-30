@@ -8,7 +8,7 @@ import { COMPANY } from "@/constants/constants";
 
 const Privacy = () => (
   <>
-    <SEOHead title={`Privacy Policy — ${COMPANY.name}`} description={`Privacy policy for ${COMPANY.name}. Learn how we collect, use, and protect your personal information.`} />
+    <SEOHead title={`Privacy Policy | ${COMPANY.name}`} description={`Privacy policy for ${COMPANY.name}. Learn how we collect, use, and protect your personal information.`} canonical="https://www.sritejaswinipackersandmovers.com/privacy-policy.html" />
     <Navbar />
     <main className="pt-28 pb-20">
       <div className="container-custom max-w-3xl">
@@ -39,6 +39,7 @@ const Privacy = () => (
     </main>
     <Map /> {/* Render the Map component here */}
     <Footer />
+    <FloatingCTA />
   </>
 );
 

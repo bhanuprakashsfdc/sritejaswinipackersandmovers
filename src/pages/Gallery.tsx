@@ -21,7 +21,7 @@ const Gallery = () => {
 
   return (
     <>
-      <SEOHead title={`Our Work & Fleet — ${COMPANY.name}`} description="Explore our packing standards, fleet, and infrastructure." />
+      <SEOHead title={`Our Work & Fleet | ${COMPANY.name}`} description="Explore our packing standards, fleet, and infrastructure." canonical="https://www.sritejaswinipackersandmovers.com/gallery.html" />
       <Navbar />
       <main>
         {/* Hero Section */}

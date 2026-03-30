@@ -1,4 +1,3 @@
-import { HelmetProvider } from "react-helmet-async";
 import { Layout } from "@/components/layout/Layout";
 import { SEO } from "@/components/SEO";
 import { Link } from "react-router-dom";
@@ -13,7 +12,7 @@ const Sitemap = () => {
   ];
 
   return (
-    <HelmetProvider>
+    <>
       <SEO
         title={`Sitemap | ${COMPANY.name}`}
         description="Browse all site pages and important links in our sitemap."
@@ -52,7 +51,7 @@ const Sitemap = () => {
           </div>
         </section>
       </Layout>
-    </HelmetProvider>
+    </>
   );
 };
 

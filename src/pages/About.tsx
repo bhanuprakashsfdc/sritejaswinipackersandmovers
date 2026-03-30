@@ -22,7 +22,7 @@ const About = () => {
 
   return (
     <>
-    <SEOHead title={SEO_DATA.about.title} description={SEO_DATA.about.description} keywords={SEO_DATA.about.keywords} />
+    <SEOHead title={SEO_DATA.about.title} description={SEO_DATA.about.description} keywords={SEO_DATA.about.keywords} canonical="https://www.sritejaswinipackersandmovers.com/about.html" />
     <Navbar />
     <main>
       {/* Hero Section */}

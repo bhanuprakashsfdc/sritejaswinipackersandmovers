@@ -6,7 +6,7 @@ import { LOCATIONS } from "@/constants/constants";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => (
-  <footer className="bg-slate-900 text-white relative overflow-hidden">
+  <footer aria-label="Site footer" className="bg-slate-900 text-white relative overflow-hidden">
     {/* Background decoration */}
     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(16,185,129,0.08),transparent_50%)]" />
     
@@ -22,11 +22,19 @@ const Footer = () => (
           </p>
           
           {/* Social Links */}
-          <div className="flex gap-3 mb-6">
-            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
+          <div className="flex gap-3 mb-6" aria-label="Social media links">
+            {[
+              { Icon: Facebook, label: "Facebook", href: COMPANY.socialLinks.facebook },
+              { Icon: Twitter, label: "Twitter", href: COMPANY.socialLinks.twitter },
+              { Icon: Instagram, label: "Instagram", href: COMPANY.socialLinks.instagram },
+              { Icon: Linkedin, label: "LinkedIn", href: COMPANY.socialLinks.linkedin },
+            ].map(({ Icon, label, href }) => (
               <a
-                key={i}
-                href="#"
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
                 className="w-10 h-10 rounded-xl bg-white/5 hover:bg-emerald-500/20 border border-white/10 hover:border-emerald-500/30 flex items-center justify-center transition-all group"
               >
                 <Icon className="w-4 h-4 text-white/60 group-hover:text-emerald-400 transition-colors" />
@@ -98,7 +106,7 @@ const Footer = () => (
     <div className="border-t border-white/10">
       <div className="container-custom py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/40">
         <p>© {new Date().getFullYear()} {COMPANY.name}. All rights reserved and Created by{" "}
-          <a href="https://anuhyadigital.com/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 transition-colors">
+          <a href="https://anuhyadigital.com/" target="_blank" rel="noopener noreferrer" className="text-emerald-500 hover:text-emerald-300 hover:underline transition-colors cursor-pointer">
             Anuhya Digital
           </a>
         </p>

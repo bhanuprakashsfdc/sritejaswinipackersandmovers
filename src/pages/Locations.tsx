@@ -1,4 +1,3 @@
-import { HelmetProvider } from "react-helmet-async";
 import { motion, useReducedMotion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { MapPin, ArrowRight, Phone } from "lucide-react";
@@ -15,7 +14,7 @@ const Locations = () => {
   const prefersReducedMotion = useReducedMotion();
 
   return (
-    <HelmetProvider>
+    <>
       <SEO
         title={SEO_DATA.locations.title}
         description={SEO_DATA.locations.description}
@@ -158,7 +157,7 @@ const Locations = () => {
       <Map />
       <Footer />
       <FloatingCTA />
-    </HelmetProvider>
+    </>
   );
 };
 

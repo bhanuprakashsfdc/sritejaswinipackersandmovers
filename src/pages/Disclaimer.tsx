@@ -41,7 +41,7 @@ const Disclaimer = () => {
 
   return (
     <>
-      <SEOHead title={`Disclaimer — ${COMPANY.name}`} description={`Disclaimer for ${COMPANY.name} website and services.`} />
+      <SEOHead title={`Disclaimer | ${COMPANY.name}`} description={`Disclaimer for ${COMPANY.name} website and services.`} canonical="https://www.sritejaswinipackersandmovers.com/disclaimer.html" />
       <Navbar />
       <main>
         {/* Hero Section */}

@@ -180,6 +180,7 @@ const Index = () => {
         title={SEO_DATA.home.title}
         description={SEO_DATA.home.description}
         keywords={SEO_DATA.home.keywords}
+        canonical="https://www.sritejaswinipackersandmovers.com/"
         jsonLd={jsonLd}
       />
       <Navbar />

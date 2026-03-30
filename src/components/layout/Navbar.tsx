@@ -21,7 +21,7 @@ const Navbar = () => {
       transition={{ duration: 0.3 }}
     >
       <div className="container-custom">
-        <nav className="flex items-center justify-between h-16 md:h-20">
+        <nav aria-label="Main navigation" className="flex items-center justify-between h-16 md:h-20">
           <Link to="/index.html" className="flex items-center">
             <img src={jblogo} alt="Sri Tejaswini packers and movers" className="jblogo" />
           </Link>
