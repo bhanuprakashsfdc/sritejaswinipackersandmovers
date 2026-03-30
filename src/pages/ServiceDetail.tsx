@@ -1,5 +1,4 @@
 import React from "react";
-import { HelmetProvider } from "react-helmet-async";
 import { motion, useReducedMotion } from "framer-motion";
 import { useParams, Link } from "react-router-dom";
 import { CheckCircle2, ArrowRight, Phone, Home, Building2, Car, Truck, Package, Warehouse, Bike, MapPin, Factory, TrendingUp, Award, Star } from "lucide-react";
@@ -32,7 +31,7 @@ const ServiceDetail = () => {
 
   if (!service) {
     return (
-      <HelmetProvider>
+      <>
         <SEO
           title="Service Not Found - Sri Tejaswini packers and movers"
           description="The service you are looking for could not be found."
@@ -51,14 +50,14 @@ const ServiceDetail = () => {
         <CTASection />
         <Map />
         <Footer />
-      </HelmetProvider>
+      </>
     );
   }
 
   const relatedServices = SERVICES.filter((s) => s.id !== service.id).slice(0, 3);
 
   return (
-    <HelmetProvider>
+    <>
       <SEO
         title={`${service.title} - Professional ${service.title} Services | Sri Tejaswini packers and movers`}
         description={service.fullDescription}
@@ -286,7 +285,7 @@ const ServiceDetail = () => {
       <Map />
       <Footer />
       <FloatingCTA />
-    </HelmetProvider>
+    </>
   );
 };
 

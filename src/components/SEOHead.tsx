@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 interface SEOHeadProps {
   title: string;
@@ -7,67 +7,25 @@ interface SEOHeadProps {
   keywords?: string;
   canonical?: string;
   ogImage?: string;
-  jsonLd?: object;
-  localBusiness?: {
-    name: string;
-    description: string;
-    telephone: string;
-    email?: string;
-    address: {
-      streetAddress?: string;
-      addressLocality: string;
-      addressRegion: string;
-      postalCode?: string;
-      addressCountry: string;
-    };
-    priceRange?: string;
-    openingHours?: string;
-    rating?: {
-      ratingValue: string;
-      reviewCount: string;
-    };
-    areaServed?: Array<{ '@type': string; name: string }>;
-  };
+  jsonLd?: object | object[];
+  noindex?: boolean;
+  type?: string;
 }
 
-const SEOHead = ({ 
-  title, 
-  description, 
-  keywords, 
-  canonical, 
-  ogImage, 
+const DOMAIN = "https://www.sritejaswinipackersandmovers.com";
+const DEFAULT_OG_IMAGE = `${DOMAIN}/opengraph-image.png`;
+
+const SEOHead = ({
+  title,
+  description,
+  keywords,
+  canonical,
+  ogImage = DEFAULT_OG_IMAGE,
   jsonLd,
-  localBusiness 
+  noindex = false,
+  type = "website",
 }: SEOHeadProps) => {
-  // Build JSON-LD for local business if provided
-  let structuredData = jsonLd;
-  
-  if (localBusiness && !jsonLd) {
-    structuredData = {
-      "@context": "https://schema.org",
-      "@type": "MovingCompany",
-      "name": localBusiness.name,
-      "description": localBusiness.description,
-      "telephone": localBusiness.telephone,
-      "email": localBusiness.email || undefined,
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": localBusiness.address.streetAddress,
-        "addressLocality": localBusiness.address.addressLocality,
-        "addressRegion": localBusiness.address.addressRegion,
-        "postalCode": localBusiness.address.postalCode,
-        "addressCountry": localBusiness.address.addressCountry
-      },
-      "priceRange": localBusiness.priceRange,
-      "openingHours": localBusiness.openingHours,
-      "aggregateRating": localBusiness.rating ? {
-        "@type": "AggregateRating",
-        "ratingValue": localBusiness.rating.ratingValue,
-        "reviewCount": localBusiness.rating.reviewCount
-      } : undefined,
-      "areaServed": localBusiness.areaServed
-    };
-  }
+  const canonicalUrl = canonical || (typeof window !== 'undefined' ? `${DOMAIN}${window.location.pathname}` : undefined);
 
   return (
     <Helmet>
@@ -75,36 +33,45 @@ const SEOHead = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
-      {canonical && <link rel="canonical" href={canonical} />}
-      
+      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+
+      {/* Robots */}
+      {noindex ? (
+        <meta name="robots" content="noindex, nofollow" />
+      ) : (
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+      )}
+
       {/* Open Graph */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      {ogImage && <meta property="og:image" content={ogImage} />}
-      <meta property="og:type" content="website" />
+      <meta property="og:image" content={ogImage} />
+      <meta property="og:type" content={type} />
       <meta property="og:locale" content="en_IN" />
-      
+      <meta property="og:site_name" content="Sri Tejaswini packers and movers" />
+      {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      {ogImage && <meta name="twitter:image" content={ogImage} />}
-      
+      <meta name="twitter:image" content={ogImage} />
+
       {/* Additional SEO */}
-      <meta name="robots" content="index, follow" />
       <meta name="author" content="Sri Tejaswini packers and movers" />
-      <meta name="geo.region" content="IN-AP" />
-      <meta name="geo.placename" content="Tirupati" />
-      
+      <meta name="geo.region" content="IN" />
+      <meta name="geo.placename" content="India" />
+      <meta name="format-detection" content="telephone=yes" />
+
       {/* Language */}
       <html lang="en" />
-      
+
       {/* Structured Data */}
-      {structuredData && (
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
+      {jsonLd && (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((schema, i) => (
+        <script key={i} type="application/ld+json">
+          {JSON.stringify(schema)}
         </script>
-      )}
+      ))}
     </Helmet>
   );
 };

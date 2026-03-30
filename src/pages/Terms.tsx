@@ -46,7 +46,7 @@ const Terms = () => {
 
   return (
     <>
-      <SEOHead title={`Terms & Conditions — ${COMPANY.name}`} description={`Terms and conditions for using ${COMPANY.name} services and website.`} />
+      <SEOHead title={`Terms & Conditions | ${COMPANY.name}`} description={`Terms and conditions for using ${COMPANY.name} services and website.`} canonical="https://www.sritejaswinipackersandmovers.com/terms.html" />
       <Navbar />
       <main>
         {/* Hero Section */}
@@ -131,6 +131,7 @@ const Terms = () => {
       </main>
       <Map />
       <Footer />
+      <FloatingCTA />
     </>
   );
 };

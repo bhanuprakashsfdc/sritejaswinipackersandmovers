@@ -24,6 +24,8 @@ const staticPaths = [
   "/contact.html",
   "/locations.html",
   "/services.html",
+  "/gallery.html",
+  "/sitemap.html",
 ];
 
 // Build city paths mirroring router configuration (.html variants)
