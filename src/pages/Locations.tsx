@@ -142,7 +142,7 @@ const Locations = () => {
               <Button 
                 variant="outline" 
                 asChild 
-                className="border-white/20 text-white hover:bg-white/10"
+                className="border-white/20 text-white bg-white/10 hover:bg-white/20"
               >
                 <a href={`tel:${COMPANY.phone}`}>
                   <Phone className="w-5 h-5 mr-2" />

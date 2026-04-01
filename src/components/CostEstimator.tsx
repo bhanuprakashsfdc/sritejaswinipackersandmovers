@@ -15,7 +15,7 @@ const CostEstimator = () => {
   const [estimate, setEstimate] = useState<{ min: number; max: number } | null>(null);
 
   const selectClass =
-    "w-full px-4 py-3.5 rounded-xl bg-background border border-border text-foreground text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all";
+    "w-full px-4 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 transition-all";
 
   const calculate = () => {
     if (!moveType || !fromCity || !size) return;

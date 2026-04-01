@@ -69,6 +69,20 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading;
   }
+  select {
+    color: theme('colors.slate.900');
+    background-color: white;
+  }
+  select option {
+    color: theme('colors.slate.900');
+    background-color: white;
+  }
+  input, textarea {
+    color: theme('colors.slate.900');
+  }
+  input::placeholder, textarea::placeholder {
+    color: theme('colors.slate.500');
+  }
 }
 
 /* Reduced motion support */

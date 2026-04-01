@@ -41,7 +41,7 @@ const HeroSection = () => {
   };
 
   const inputClass =
-    "w-full px-4 py-3 rounded-xl bg-background/80 backdrop-blur-sm border border-border/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all text-sm";
+    "w-full px-4 py-3 rounded-xl bg-white/90 backdrop-blur-sm border border-slate-300 text-slate-900 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/30 focus:border-emerald-500 transition-all text-sm";
 
   // Animation variants
   const fadeUpVariants = {

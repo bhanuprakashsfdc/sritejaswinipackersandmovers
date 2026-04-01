@@ -58,7 +58,7 @@ const CityGrid = () => (
           viewport={{ once: true }}
           className="text-center mt-10"
         >
-          <Link to="/locations" className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all text-sm">
+          <Link to="/locations.html" className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all text-sm">
             View All 200+ Service Cities <ArrowRight className="w-4 h-4" />
           </Link>
         </motion.div>

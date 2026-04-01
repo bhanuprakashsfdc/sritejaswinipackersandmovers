@@ -128,7 +128,7 @@ const LocationDetail = () => {
                     Get Free Quote <ArrowRight className="w-5 h-5" />
                   </Link>
                 </Button>
-                <Button variant="outline" size="lg" asChild className="border-white/20 text-white hover:bg-white/10">
+                <Button variant="outline" size="lg" asChild className="border-white/20 text-white bg-white/10 hover:bg-white/20">
                   <a href={`tel:${COMPANY.phone}`}>
                     <Phone className="w-5 h-5" /> Call Now
                   </a>
@@ -205,7 +205,7 @@ const LocationDetail = () => {
                   transition={{ delay: prefersReducedMotion ? 0 : index * 0.1 }}
                 >
                   <Link
-                    to={`/services/${service.slug}`}
+                    to={`/services/${service.slug}.html`}
                     className="group block h-full bg-white rounded-2xl border border-slate-200 p-6 hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-500/10 transition-all"
                   >
                     <div className={`w-12 h-12 ${colors.bg} rounded-2xl flex items-center justify-center ${colors.text} mb-4 group-hover:scale-110 transition-transform`}>

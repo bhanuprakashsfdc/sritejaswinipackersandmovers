@@ -56,7 +56,7 @@ const ProcessTimeline = () => {
                 className="relative p-7 rounded-2xl bg-white border border-slate-200 hover:shadow-xl hover:shadow-emerald-500/10 hover:border-emerald-200 transition-all group"
               >
                 {/* Step number */}
-                <div className={`absolute -top-4 left-7 w-8 h-8 rounded-full ${colors.bg} ${colors.border} border flex items-center justify-center text-white font-heading font-bold text-sm shadow-lg`}>
+                <div className={`absolute -top-4 left-7 w-8 h-8 rounded-full ${colors.bg} ${colors.border} border flex items-center justify-center ${colors.text} font-heading font-bold text-sm shadow-lg`}>
                   {step.step}
                 </div>
                 {/* Connector line */}
