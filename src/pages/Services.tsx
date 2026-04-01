@@ -160,7 +160,7 @@ const Services = () => {
               <Link to="/contact.html" className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-semibold">
                 Get Free Quote
               </Link>
-              <a href={`tel:${COMPANY.phone}`} className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-white/20 text-white hover:bg-white/10 transition-colors">
+              <a href={`tel:${COMPANY.phone}`} className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-white/20 text-white bg-white/10 hover:bg-white/20 transition-colors">
                 <Phone className="w-5 h-5" />
                 {COMPANY.phone}
               </a>

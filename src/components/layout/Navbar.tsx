@@ -89,7 +89,7 @@ const Navbar = () => {
               ))}
               <div className="pt-4 flex flex-col gap-3">
                 <a href={`tel:${COMPANY.phone}`}>
-                  <Button variant="outline" className="w-full rounded-xl gap-2 border-white/20 text-white hover:bg-white/10">
+                  <Button variant="outline" className="w-full rounded-xl gap-2 border-white/20 text-white bg-white/10 hover:bg-white/20">
                     <Phone className="w-4 h-4" /> {COMPANY.phone}
                   </Button>
                 </a>

@@ -99,7 +99,7 @@ const ServiceDetail = () => {
                       Get Free Quote <ArrowRight className="w-5 h-5" />
                     </Link>
                   </Button>
-                  <Button variant="outline" size="lg" asChild className="border-white/20 text-white hover:bg-white/10">
+                  <Button variant="outline" size="lg" asChild className="border-white/20 text-white bg-white/10 hover:bg-white/20">
                     <a href={`tel:${COMPANY.phone}`}>
                       <Phone className="w-5 h-5" /> Call Now
                     </a>
@@ -153,7 +153,7 @@ const ServiceDetail = () => {
                     </Button>
                     <Button
                       variant="outline"
-                      className="w-full border-white/20 text-white hover:bg-white/10"
+                      className="w-full border-white/20 text-white bg-white/10 hover:bg-white/20"
                       asChild
                     >
                       <a href={`tel:${COMPANY.phone}`}>{COMPANY.phone}</a>
