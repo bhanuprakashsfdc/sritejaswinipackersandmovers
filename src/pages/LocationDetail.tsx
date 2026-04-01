@@ -205,7 +205,7 @@ const LocationDetail = () => {
                   transition={{ delay: prefersReducedMotion ? 0 : index * 0.1 }}
                 >
                   <Link
-                    to={`/services/${service.slug}`}
+                    to={`/services/${service.slug}.html`}
                     className="group block h-full bg-white rounded-2xl border border-slate-200 p-6 hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-500/10 transition-all"
                   >
                     <div className={`w-12 h-12 ${colors.bg} rounded-2xl flex items-center justify-center ${colors.text} mb-4 group-hover:scale-110 transition-transform`}>

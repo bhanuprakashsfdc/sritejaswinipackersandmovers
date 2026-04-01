@@ -5,7 +5,7 @@ import { Menu, X, Phone, ArrowRight, Truck } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NAV_LINKS, COMPANY } from "@/constants/constants";
 import { Button } from "@/components/ui/button";
-import jblogo from "@/assets/jblogo.gif";
+import AnimatedLogo from "@/components/AnimatedLogo";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container-custom">
         <nav aria-label="Main navigation" className="flex items-center justify-between h-16 md:h-20">
           <Link to="/index.html" className="flex items-center">
-            <img src={jblogo} alt="Sri Tejaswini packers and movers" className="jblogo" />
+            <AnimatedLogo className="h-10 md:h-12 w-auto" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-1">

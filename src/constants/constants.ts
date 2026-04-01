@@ -39,7 +39,7 @@ export const COMPANY = {
   cities: "500+",
   phone: "+91-9381234146",
   alternatePhone: "+91-8247634546",
-  whatsapp: "+91-9381234146",
+  whatsapp: "919381234146",
   email: "info@sritejaswinipackersandmovers.com",
   address: "Sri Tejaswini packers and movers,Beside Canara Bank, Vaaikuntapuram Road, M.R.Palli, Tirupati",
   workingHours: "Mon - Sat: 8:00 AM - 8:00 PM",

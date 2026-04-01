@@ -79,7 +79,7 @@ const ServicesGrid = () => {
                 transition={{ delay: prefersReducedMotion ? 0 : i * 0.06, duration: prefersReducedMotion ? 0 : 0.4 }}
               >
                 <Link
-                  to={`/services#${service.id}`}
+                  to={`/services/${service.slug}.html`}
                   className="group block p-7 rounded-2xl bg-white/80 backdrop-blur-sm border border-slate-200/50 hover:shadow-xl hover:shadow-emerald-500/10 hover:border-emerald-200/50 transition-all duration-300 h-full relative overflow-hidden"
                 >
                   {/* Hover glow effect */}
